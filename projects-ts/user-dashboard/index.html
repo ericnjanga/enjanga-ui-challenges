@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="/src/styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="container">
+    <nav>
+      <a href="/index.html">Welcome page</a>
+    </nav>
+
+
+    <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div id="header-text-wrapper" class="col text-center"> 
+        <p class="lead my-3">Welcome to: <span id="placeholder-new-user" class="fw-bold">xxxx</span></p>
+
+        <div class="row">
+          <div class="col text-center">
+            <button id="btn-fetch" class="btn btn-primary">Fetch new user</button> 
+          </div> 
+        </div>
+
+        <div><p>&nbsp;</p></div>
+
+        <div class="row"> 
+          <div class="col text-center">
+            <button id="btn-subscribe" class="btn btn-secondary">Subscribe before fetching</button>
+            <button id="btn-subscribe-once" class="btn btn-success">Subscribe fetch alert (once)</button>
+            <button id="btn-unsubscribe" class="btn btn-danger">Unsubscribe user fetching</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <script type="module" src="./main.ts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

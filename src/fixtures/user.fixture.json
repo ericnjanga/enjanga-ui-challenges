@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": {
+        "title": "Mr",
+        "first": "Modesto",
+        "last": "Valladares"
+      },
+      "location": {
+        "street": {
+          "number": 6488,
+          "name": "Cerrada Sur Rico"
+        },
+        "city": "Boca del Río",
+        "state": "Queretaro",
+        "country": "Mexico",
+        "postcode": 26455,
+        "coordinates": {
+          "latitude": "28.9370",
+          "longitude": "-80.8391"
+        },
+        "timezone": {
+          "offset": "+1:00",
+          "description": "Brussels, Copenhagen, Madrid, Paris"
+        }
+      },
+      "email": "modesto.valladares@example.com",
+      "login": {
+        "uuid": "be7a51a2-57df-4618-a6c0-e18c82b47f8b",
+        "username": "silverbear927",
+        "password": "hawaii50",
+        "salt": "uDZ7xhIP",
+        "md5": "8cb825f1f12c02cf6298a0390ad5221c",
+        "sha1": "eb824ca98ab6329bf4e154f3a26ea655ebac0cdb",
+        "sha256": "5f77b5f78a9417f828c8d4fca6367ef8d2f87746ad480dceee3140b488ace702"
+      },
+      "dob": {
+        "date": "1950-05-28T08:03:09.757Z",
+        "age": 75
+      },
+      "registered": {
+        "date": "2012-09-20T11:25:47.387Z",
+        "age": 13
+      },
+      "phone": "(651) 724 9579",
+      "cell": "(601) 529 4284",
+      "id": {
+        "name": "NSS",
+        "value": "09 91 34 3327 0"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/75.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/75.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/75.jpg"
+      },
+      "nat": "MX"
+    }
+  ],
+  "info": {
+    "seed": "d2d0fd1b32c18fcf",
+    "results": 1,
+    "page": 1,
+    "version": "1.4"
+  }
+}

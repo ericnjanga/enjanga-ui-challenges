@@ -1,0 +1,73 @@
+------------------------------------------
+------------------------------------------
+              USER DASHBOARD
+------------------------------------------
+------------------------------------------
+
+Objectives:
+-------------- 
+1) Each time a new user is fetched from an API, use Event emitters to notify:
+- Header: New user names
+- Main content table: Show the latest fetched user as the first table element
+- Sidebar: give of count of
+-- Total number of users
+-- Total nuber of males
+-- Total number of females
+
+2) For the first ever user fetched, use Event emitters to display this alert of the first child of "header-text-wrapper"
+<div id="new-user-alert" class="alert alert-success" role="alert">
+  First user!!! 🎊🎊
+</div>
+
+3) For any upcoming user, the alert should be removed
+4) Think about the usage of OOP and inheritance for "event emitters" and 
+
+
+
+
+
+INFORMATION:
+-------------- 
+
+
+user fetching endPoint:
+-------
+'https://randomuser.me/api/'
+
+
+List of ids:
+-------
+btn-fetch
+header-text-wrapper
+placeholder-new-user
+placeholder-users-list
+placeholder-users-total-count
+placeholder-users-males-count
+placeholder-users-females-count
+
+
+
+Types:
+-------
+export type EventType = string;
+export type ArgsType = UserResultType[];
+export type ListenerType = (...args: ArgsType) => void;
+export type userNameType = {
+  'title': string;
+  'first': string;
+  'last': string;
+};
+export type UserResultType = {
+  gender: string;
+  name: userNameType;
+};
+export type ApiInfoType = {
+  seed: string;
+  results: number;
+  page: number;
+  version: string;
+};
+export type ApiResponseType = {
+  results: UserResultType[];
+  info: ApiInfoType;
+};
