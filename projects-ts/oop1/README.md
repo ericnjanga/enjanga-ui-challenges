@@ -32,7 +32,7 @@ You’ll implement:
 [✅] Polymorphism in Action
     - Put all notifications in an array and call .render() on each — you should get different outputs without knowing the exact class.
 
-3. Composition with Mixins
+[✅] Composition with Mixins
     - Write a withAutoDismiss(notification, ms) mixin that auto-dismisses after ms.
     - Write a withLogging(notification) mixin that logs lifecycle events (show, dismiss).
 

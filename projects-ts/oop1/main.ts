@@ -18,12 +18,10 @@ class Notification {
 
   show() {
     this.#visible = true;
-    console.log(`Showing: ${this.message}`);
   }
 
   dismiss() {
     this.#visible = false;
-    console.log("Notification dismissed");
   }
 
   set message(newMessage: string) {
@@ -131,4 +129,55 @@ for (let notif of notificationList) {
     - Write a withAutoDismiss(notification, ms) mixin that auto-dismisses after ms.
     - Write a withLogging(notification) mixin that logs lifecycle events (show, dismiss).
 */
+const withAutoDismiss = <T extends Notification>(notification: T, ms: number): T => {
+  // preserve original show()
+  const originalShow = notification.show.bind(notification);
 
+  // Override current show()
+  notification.show = () => {
+    originalShow();
+
+    setTimeout(() => {
+      notification.dismiss();
+    }, ms);
+  };
+
+  return notification;
+};
+
+const withLogging = <T extends Notification>(notification: T): T => {
+
+  // Preserve original lifecycle methods
+  const originalShow = notification.show.bind(notification);
+  const originalDismiss = notification.dismiss.bind(notification);
+  const originalRender = notification.render.bind(notification);
+
+  // Overriding current lifecycle methods ...
+  notification.show = () => {
+    console.log(`Showing ... ${notification.type}`);
+    originalShow();
+  };
+ 
+  notification.dismiss = () => {
+    console.log(`Dismissing ... ${notification.type}`);
+    originalDismiss();
+  };
+ 
+  notification.render = () => {
+    console.log(`Rendering ... ${notification.type}`);
+    originalRender();
+  };
+  
+  // Return enhanced objects
+  return notification;
+};
+
+
+const modal1 = withAutoDismiss(
+  new ModalNotification('this will be dismissed soon', 'dismissable'),
+  5000
+);
+const modal2 = withLogging(modal1);
+
+modal1.show();
+modal1.render();
