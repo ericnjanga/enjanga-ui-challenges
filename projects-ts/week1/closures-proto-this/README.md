@@ -69,7 +69,7 @@ Write a short explanation (in your own words) of how JavaScript treats primitive
   - Test it on built-in objects ([], {}, new Date()) and your own custom classes.
 
 
-[3] Fixing this
+[✅] Fixing this
 -------
   - Create an object with a method that uses setTimeout to log its name after 1 second.
   - Make it fail (loses this) and then fix it with:
