@@ -1,3 +1,8 @@
+/**
+ * SOLUTION
+ * -------------------- 
+ */
+
 type CounterType = {
   increment: (step?: number) => number;
   decrement: (step?: number) => number;

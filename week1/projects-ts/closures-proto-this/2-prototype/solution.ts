@@ -1,3 +1,8 @@
+/**
+ * SOLUTION
+ * -------------------- 
+ */
+
 const getPrototypeChain = (obj: unknown): string[] => {
   const chain: string[] = [];
 

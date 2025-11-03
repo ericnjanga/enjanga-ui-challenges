@@ -8,7 +8,7 @@
 
   NOTE: Concurrency is the ability to manage multiple tasks that appear to run at the same time, without them blocking each other. This is particularly important for web browsers, as it allows your application to remain responsive while performing long-running operations like fetching data from an API. 
 
-[2.] Sequential vs Parallel
+[✅] Sequential vs Parallel
 -------
   (This is a super common exercise to learn the difference between sequential vs parallel async execution in JavaScript)
   - Write a function that fetches data from 3 mock APIs (setTimeout or fetch mock).

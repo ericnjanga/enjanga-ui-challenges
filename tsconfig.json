@@ -42,5 +42,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["projects-ts", "projects-react"]
+  "include": ["week1", "week2", "week3", "week4"]
 }
