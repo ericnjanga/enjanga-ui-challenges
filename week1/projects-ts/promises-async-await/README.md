@@ -17,6 +17,6 @@
       - In parallel (Promise.all).
   - Log how long each takes.
 
-[3.] Timeout Wrapper
+[✅] Timeout Wrapper
 -------
   - Implement withTimeout(promise, ms) which rejects if the promise doesn’t resolve in ms milliseconds.
