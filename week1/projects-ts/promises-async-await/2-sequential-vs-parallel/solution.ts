@@ -11,6 +11,9 @@ type ApiResponseType = {
   totalResults: number,
 };
 
+
+
+
 /**
  * Fetching data from an endpoint
  * @param endpoint 
@@ -40,6 +43,17 @@ const fetchData = async(endpoint: string): Promise<ApiResponseType> => {
     };
   }
 };
+
+// // Mocking / Testing alternative
+// const fetchData = async(endpoint: string) => {
+//   return new Promise((resolve) => {
+//     const delay = Math.random() * 2000 + 500;
+//     const results = Math.floor(Math.random() * 100);
+//     setTimeout(() => resolve({ status: 'ok', totalResults: results }), delay);
+//   });
+// };
+
+
 
 /**
  * Execution

@@ -36,3 +36,12 @@ a:hover {
 a .highlight {
   color:rgb(224, 87, 255);
 }
+
+
+
+.info {
+  color: rgb(186, 186, 186);
+}
+.info span {
+  color: rgb(181, 159, 21);
+}
