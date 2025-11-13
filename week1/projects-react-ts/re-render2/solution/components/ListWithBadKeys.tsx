@@ -9,7 +9,7 @@ function ListWithBadKeys() {
   };
 
   return (
-    <div>
+    <div id="3">
       <h2>Improper Keys (using index)</h2>
       <button onClick={shuffle}>Shuffle</button>
       <ul>

@@ -1,10 +1,9 @@
 
-import React from 'react';
 import { data } from '../data';
 
 function ListWithoutOptimization() {
   return (
-    <div>
+    <div id="1">
       <h2>Without Optimization</h2>
       <ul>
         {data.map((item) => (

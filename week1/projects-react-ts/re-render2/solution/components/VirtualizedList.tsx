@@ -21,11 +21,11 @@ const Row = ({ index, style }: RowType) => (
 
 function VirtualizedList() {
   return (
-    <div>
-      <h2>Virtualized (react-window)</h2>
+    <div id="4">
+      <h2>Virtualized (react-window)*</h2>
       <List
         rowComponent={Row}
-        rowCount={1000}
+        rowCount={data.length}
         rowHeight={25}
         rowProps={ ['col'] }
       />
