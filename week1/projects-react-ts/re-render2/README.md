@@ -1,7 +1,4 @@
-✅ 1. Re-render Behavior, Reconciliation, Virtual DOM
--------
 
- 
 
 ## Exercise 2: 
 --------

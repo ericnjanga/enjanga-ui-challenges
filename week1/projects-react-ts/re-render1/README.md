@@ -5,7 +5,8 @@
 
 ## Exercise 1
 --------
-Create a parent component with three children. Add a state variable in the parent that updates every second using setInterval. Observe which children re-render when:
+Create a parent component with three children. Add a state variable in the parent that updates every second using setInterval. 
+Observe which children re-render when:
 - A child depends on the parent’s state.
 - A child does not depend on it.
 - A child is memoized with React.memo.

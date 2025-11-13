@@ -42,5 +42,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["week1", "week2", "week3", "week4"]
+  "include": ["src", "src/types", "week1", "week2", "week3", "week4"]
 }

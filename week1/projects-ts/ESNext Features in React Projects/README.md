@@ -16,3 +16,4 @@
 [12] Generators + Async Iterators
   - Build a function that yields mock API results page by page (like infinite scroll).
   - In React, hook it up to a “Load More” button.
+
