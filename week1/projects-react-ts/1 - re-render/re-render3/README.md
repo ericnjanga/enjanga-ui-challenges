@@ -1,5 +1,7 @@
-✅ 1. Re-render Behavior, Reconciliation, Virtual DOM
+# 1. Re-render Behavior, Reconciliation, Virtual DOM
+Solution: https://chatgpt.com/c/68f834d9-aa60-8325-8395-ee3943c818d0
 -------
+
 
  
 

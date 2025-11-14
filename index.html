@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>JavaScript & React Challenges</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link href="/src/styles/styles.css" rel="stylesheet">
@@ -12,76 +12,66 @@
 
 <body>
   <main class="container">
-    <header class="text-center">
-      <h1>Main</h1>
-
+    <header class="text-center p-5 mb-4 bg-body-tertiary rounded-3">
+      <h1>JavaScript &amp; React Challenges</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit expedita consectetur natus, maxime eius numquam,
+        non hic dolor sed dicta tempore! Voluptatum iure, aspernatur labore vitae itaque similique suscipit quae!</p>
     </header>
-    <hr />
-    <div class="row">
-      <main class="col-8">
 
-        <h2>Challenges</h2>
-        <h3>JavaScript/TypeScript</h3>
+
+
+
+
+
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">Week 1</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>JavaScript</h3>
         <ul>
           <li>
-            <a href="/week1/projects-ts/user-dashboard/index.html">User Dashboard <span class="highlight">(Pub/Sub or Observer
-                Pattern)</span></a>
+            <a href="/week1/projects-ts/primitives/index.html">Primitives</a>
+          </li>
+        </ul>
+
+        <h4>Closures, prototype, and "this"</h4>
+        <ul>
+          <li>
+            <a href="/week1/projects-ts/closures-proto-this/1-closures/index.html">Closure-based Counter <span
+                class="highlight">(Module Pattern)</span></a>
           </li>
           <li>
-            <h4>≈</h4>
-            <ul>
-              <li>
-                <a href="/week1/projects-ts/primitives/index.html">Primitives</a>
-              </li>
-            </ul>
+            <a href="/week1/projects-ts/closures-proto-this/2-prototype/index.html">Prototype Chain Debugger</a>
           </li>
           <li>
-            <h4>Closures, prototype, and "this"</h4>
-            <ul>
-              <li>
-                <a href="/week1/projects-ts/closures-proto-this/1-closures/index.html">Closure-based Counter <span
-                    class="highlight">(Module Pattern)</span></a>
-              </li>
-              <li>
-                <a href="/week1/projects-ts/closures-proto-this/2-prototype/index.html">Prototype Chain Debugger</a>
-              </li>
-              <li>
-                <a href="/week1/projects-ts/closures-proto-this/3-fixing-this/index.html">Fixing this</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <h4>Promise Pool, Sequential vs Parallel, Timeout Wrapper</h4>
-            <ul>
-              <li>
-                <a href="/week1/projects-ts/promises-async-await/1-promse-pool/index.html">Promise Pool <span
-                    class="highlight">(Promise Pool Pattern)</span></a>
-                    <p class="info">This exercise explores <span>concurrency</span> and a mix of <span>Sequential</span> and <span>Parallel</span> async operations.</p>
-              </li>
-              <li>
-                <a href="/week1/projects-ts/promises-async-await/2-sequential-vs-parallel/index.html">Sequential vs Parallel</a>
-                <p class="info">This exercise explores <span>concurrency</span> while forcing you to understand the difference between <span>Sequential</span> and <span>Parallel</span> async operations.</p>
-              </li>
-              <li>
-                <a href="/week1/projects-ts/promises-async-await/3-timeout-wrapper/index.html">Timeout Wrapper</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a href="/week1/projects-ts/oop1/index.html">OOP <span class="highlight">(Composition Principle)</span></a>
+            <a href="/week1/projects-ts/closures-proto-this/3-fixing-this/index.html">Fixing this</a>
           </li>
         </ul>
 
 
 
-
-        <hr />
-
-        <h3>React/TypeScript</h3>
+        <h4>Promise Pool, Sequential vs Parallel, Timeout Wrapper</h4>
         <ul>
           <li>
-            <a href="/week1/projects-react-ts/counters/index.html">Counters</a>
+            <a href="/week1/projects-ts/promises-async-await/1-promse-pool/index.html">Promise Pool <span
+                class="highlight">(Promise Pool Pattern)</span></a>
           </li>
+          <li>
+            <a href="/week1/projects-ts/promises-async-await/2-sequential-vs-parallel/index.html">Sequential vs
+              Parallel</a>
+          </li>
+          <li>
+            <a href="/week1/projects-ts/promises-async-await/3-timeout-wrapper/index.html">Timeout Wrapper</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>React</h3>
+        <h4>Re-render behavior, reconciliation, virtual DOM</h4>
+        <ul>
           <li>
             <a href="/week1/projects-react-ts/re-render1/index.html">Re-render</a>
           </li>
@@ -93,11 +83,65 @@
           </li>
         </ul>
 
+        <h4>Hooks (useState, useEffect, ...)</h4>
+        <ul>
+          <li>
+            <a href="/week1/projects-react-ts/2 - hooks/">Hooks</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-        <hr />
 
 
-        <h3>Additional JavaScript study subjects</h3>
+
+
+    <div class="row">
+      <div class="col">
+        <h2 class="text-center">Put it together</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h3>JavaScript</h3>
+        <ul>
+
+          <li>
+            <a href="/week1/projects-ts/user-dashboard/index.html">User Dashboard <span class="highlight">(Pub/Sub or
+                Observer
+                Pattern)</span></a>
+          </li>
+          <li>
+            <a href="/week1/projects-ts/oop1/index.html">OOP <span class="highlight">(Composition Principle)</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>React</h3>
+
+        <ul>
+          <li>
+            <a href="/week1/projects-react-ts/counters/index.html">Counters</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+    <div class="row">
+      <div class="col-8"> 
+        <h2>Additional JavaScript study subjects</h2>
         <ul>
           <li>
             Side effects
@@ -105,14 +149,10 @@
           <li>
             Pure/Impore function
           </li>
-        </ul>
+        </ul> 
+      </div>
 
-
-
-      </main>
-
-      <aside class="col-4">
-
+      <aside class="col-4"> 
         <h2>Patterns &amp; Principles</h2>
         <ul>
           <li>
@@ -124,8 +164,7 @@
           <li>
             Module pattern
           </li>
-        </ul>
-
+        </ul> 
       </aside>
     </div>
 

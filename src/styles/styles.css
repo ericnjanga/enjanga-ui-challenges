@@ -45,3 +45,20 @@ a .highlight {
 .info span {
   color: rgb(181, 159, 21);
 }
+
+
+h2 {
+  margin: 2rem 0 1rem 0;
+  border-radius: 5px;
+  background-color: #363636;
+}
+h3 {
+  border-bottom: 1px solid #595959;
+}
+h4 {
+  font-size: 1rem;
+}
+ul {
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
+}
